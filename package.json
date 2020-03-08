@@ -1,0 +1,27 @@
+{
+  "name": "YoutubeMusic",
+  "author": "Bachir Khiati",
+  "version": "1.0.0",
+  "description": "Unofficial YouTube Music Desktop Application",
+  "appId": "com.firenoid.YoutubeMusic",
+  "main": "main.js",
+  "build": {
+    "appId": "com.firenoid.YoutubeMusic",
+    "mac": {
+      "category": "firenoid.app.category.music"
+    },
+    "win": {
+          "target": "portable"
+        }
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "mac": "electron-builder build --mac",
+    "win": "electron-builder build --win --x64"
+  },
+  "devDependencies": {
+    "electron": "^7.1.4",
+    "electron-builder": "^21.2.0"
+  }
+}
