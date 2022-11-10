@@ -21,7 +21,7 @@
     "win": "electron-builder build --win --x64"
   },
   "devDependencies": {
-    "electron": "^7.1.4",
+    "electron": "^18.3.7",
     "electron-builder": "^21.2.0"
   }
 }
